@@ -81,3 +81,9 @@ body > section > ul {
 	max-height: fit-content;
 	justify-self: left;
 }
+
+body > section > button{
+	max-width: 100%;
+	max-height: fit-content;
+	justify-self: left;
+}
