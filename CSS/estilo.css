@@ -1,40 +1,40 @@
 
-/*Especificidad: 001*/
+/* */
 body {
 	background-color:#02274b; 
 	font-family: Verdana, sans-serif;
     color: #eeeeee;    
-	font-size: 1vw;
+	font-size: 2vw;
 	padding: 2em; 
 }
 
-/*Especificidad: 001*/
+/* */
 h1 {
     text-transform: uppercase;
 	text-align: center;
-    padding: 2em;     
+    padding: 1em;     
 }
 
 
-/*Especificidad: 001*/
+/* */
 h2 {
     text-transform: uppercase;
 	text-align: left;
     padding: 1em;     
 }
 
-/*Especificidad: 011*/
+/**/
 a:link {
-    color:#5865F2;
-	background-color:#02274b; 
+    color:#0721E9;
+	background-color:#EBEBEB; 
 }
   
-/*Especificidad: 011*/
+/**/
 a:visited {
-    Color: #5865F2;
-	background-color:#02274b; 
+    Color: #7601AD;
+	background-color:#EBEBEB; 
 }
-/*Especificidad: 001*/
+/* */
 table {
 	border-style: solid;
 	border-width: 0.15em;
@@ -42,12 +42,12 @@ table {
 	border-collapse: collapse;
 }
 
-/*Especificidad: 002*/
+/**/
 table th {
 	border: 0.25em solid #ccc;
 }
 
-/*Especificidad: 002*/
+/**/
 table td {
 	border: 0.25em solid #ccc;
 }
