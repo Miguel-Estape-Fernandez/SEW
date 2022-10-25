@@ -1,0 +1,57 @@
+
+/* */
+body {
+	background-color:#02274b; 
+	font-family: Verdana, sans-serif;
+    color: #eeeeee;    
+	font-size: 3vw;
+	padding: 2em; 
+}
+
+/* */
+h1 {
+    text-transform: uppercase;
+	text-align: center;
+    padding: 1em;     
+}
+
+
+/* */
+h2 {
+    text-transform: uppercase;
+	text-align: left;
+    padding: 1em;     
+}
+
+/**/
+a:link {
+    color:#0721E9;
+	background-color:#EBEBEB; 
+}
+  
+/**/
+a:visited {
+    Color: #7601AD;
+	background-color:#EBEBEB; 
+}
+/* */
+table {
+	border-style: solid;
+	border-width: 0.15em;
+	border-color: rgb(217, 217, 221);
+	border-collapse: collapse;
+}
+
+
+/**/
+table th {
+	border: 0.25em solid #ccc;
+}
+
+/**/
+table td {
+	border: 0.25em solid #ccc;
+}
+
+
+  
