@@ -53,5 +53,9 @@ table td {
 	border: 0.25em solid #ccc;
 }
 
+form legend {
+	text-transform: uppercase;
+}	
+
 
   
