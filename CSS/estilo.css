@@ -4,7 +4,7 @@ body {
 	background-color:#02274b; 
 	font-family: Verdana, sans-serif;
     color: #eeeeee;    
-	font-size: 2vw;
+	font-size: 1vw;
 	padding: 2em; 
 }
 
@@ -51,5 +51,14 @@ table th {
 table td {
 	border: 0.25em solid #ccc;
 }
+
+ul {
+	padding: 1.5em; 
+}
+
+/**/
+li, p {
+	line-height: 1.5;
+  }
 
   

@@ -1,40 +1,63 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html lang="es">
-    <head>
-        <meta charset="utf-8"/>
-		<meta name ="viewport"   content ="width=device-width, initial scale=1.0" />
-		<meta name="author"      content="Luis Vijande"/>
-		<meta name="description" content="Documento HTML asociado con el formulario"/>
-    	<meta name="keywords"    content="Ramsus Lerdof, PHP, formulario, usuario"/>
-        <title>SEW.P1.formulario</title>
-        <link rel="stylesheet" type="text/css" href="../CSS/style.css" />
-		<link rel="stylesheet" type="text/css" href="../CSS/structure.css" />
-    </head>
-	<body>
-		<header>
-			<h1>formulario</h1>
-			<nav>
-				<a title="Página principal"       accesskey="P" tabindex="0" href="../index.html">Página principal</a>
-				<a title="Carácteristicas de PHP" accesskey="C" tabindex="0" href="php.html">Carácteristicas de PHP.</a>
-				<a title="Versiones de PHP"       accesskey="V" tabindex="0" href="php_version.html">Versiones de PHP.</a>
-				<a title="Formulario"             accesskey="F" tabindex="0" href="formulario.html">Formulario.</a>
-			</nav>
-		</header>
-		<form>
-			<fieldset>
-				<legend> Información del usuario. </legend>
-				<p><label for="name">Nombre del usuario: <input      autocomplete="given-name"  id="name"></label></p>
-				<p><label for="surname">Apellido del usuario: <input autocomplete="family-name" id="surname"></label></p>
-				<p><label for="age">Fecha de nacimiento: <input      autocomplete="bday"        id="age"     type="date"></label></p>
-			</fieldset>
-			<fieldset>
-				<legend> ¿Has usado PHP?</legend>
-				<p><label for="yes"><input type="radio" name="php_use" value="Sí" id="yes" checked> Sí. </label></p>
-				<p><label for="no"><input type="radio" name="php_use" value="No" id="no"> No. </label></p>
-				<p>En caso afirmativo:</p>
-				<p><label for="satisfaction">satisfacción con php: <input  id="satisfaction" type="number" max="10" min="0"></label></p>
-			</fieldset>
-			<button type="submit">Enviar</button>
-		</form>
-    </body>
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Implementeaciones mas importantes</title>
+
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel Estapé Fernández" />
+    <meta name ="description" content ="aquí cada documento debe tener la descripción del contenido concreto del mismo" />  
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista de las palabras clave del mismo separadas por comas" />
+
+    <!--Definición de la ventana gráfica-->
+    <link rel="stylesheet" type="text/css" href="../CSS/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/estructura.css" />
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>Cuestionario sobre uso de Ruby</h1>
+    </header>
+    <section>
+        <form>
+            <fieldset>
+                <legend> Información Personal</legend>
+                <p><label>Nombre: <input></label></p>
+                <p><label>Fecha: <input type=date></label></p>
+                <p><label>Edad: <input type=number></label></p>
+            </fieldset>
+            <fieldset>
+                <legend> ¿Has usado alguna vez Ruby? </legend>
+                <p><label> <input type=radio name=size> Si </label></p>
+                <p><label> <input type=radio name=size> No </label></p>
+            </fieldset>
+            <fieldset>
+                <legend> ¿Si lo has usado en que contexto lo has utulizado? </legend>
+                <p><label> <input type=checkbox> De forma casual </label></p>
+                <p><label> <input type=checkbox> Educativa </label></p>
+                <p><label> <input type=checkbox> Profecional </label></p>
+                <p><label> <input type=checkbox> No lo he utilizado </label></p>
+            </fieldset>
+        <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <section>
+        <nav>  
+            <h2> Navegación</h2>
+                <ul>
+                    <li><a accesskey="i" tabindex=0 href="../index.html"> Indice</a></li>
+                    <li><a accesskey="m" tabindex=0 href="Implementaciones.html"> Implementaciones</a></li>
+                    <li><a accesskey="c" tabindex=0 href="caracteristicas.html"> Caracteristicas</a></li>
+                    <li><a accesskey="f" tabindex=0 href="formulario.html"> Formulario</a></li>
+                </ul>        
+        </nav>
+    </section> 
+    <footer>
+        <img src="../multimedia/images/HTML5.png" alt=" HTML5 Válido!" />
+        <img src="../multimedia/images/CSS3.png"  alt="CSS Válido!"  />
+    </footer>
+</body>
 </html>
