@@ -1,0 +1,85 @@
+/*Especificidad: 001*/
+body {
+	max-width: 100%;
+	max-height: 100%;
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+/*Especificidad: 002*/
+body > article {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/*Especificidad: 003*/
+body > article > h2 {
+	width: 100%;
+	justify-self: center;
+	max-height: fit-content;
+}
+
+
+/*Especificidad: 003*/
+body > article > section {
+	max-width: 70%;
+	max-height: fit-content;
+	justify-self: center;
+}
+
+/*Especificidad: 003*/
+body > article > aside {
+	max-width: 30%;
+	justify-self: right;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+/*Especificidad: 002*/
+body > header {
+	width: 100%;
+	max-height: fit-content;
+	justify-self: center;
+}
+/*Especificidad: 003*/
+body > header > nav {
+	max-width: 100%;
+	max-height: fit-content;
+	justify-self: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2em;
+	padding: 1em;
+	
+}
+/*Especificidad: 002*/
+body > section {
+	max-width: 100%;
+	max-height: fit-content;
+	justify-self: left;
+	flex-shrink: 2;
+}
+/*Especificidad: 002*/
+body > footer {
+	max-width: 100%;
+	max-height: fit-content;
+	flex-grow: 2;
+}
+
+/*Especificidad: 002*/
+body > form {
+	max-width: 100%;
+	flex-grow: 2;
+	justify-self: center;
+}
+
+/*Especificidad: 003*/
+body > footer > video {
+	width: 100%;
+	max-width: fit-content;
+}
