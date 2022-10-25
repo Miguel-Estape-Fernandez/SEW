@@ -40,6 +40,7 @@ body > section > nav {
 	max-width: 100%;
 	max-height: fit-content;
 	justify-self: left;
+	line-height: 5em;
 	
 }
 /*Especificidad: 002*/
@@ -72,14 +73,11 @@ body > section > video {
 body > header > image {
 	max-width: fit-content;
 	max-height: fit-content;
-	justify-self: left;
+	justify-self: center;
 }
 
 body > section > ul {
 	max-width: 100%;
 	max-height: fit-content;
 	justify-self: left;
-	line-height: 1.5em;
-	line-gap-override: 40em;
-
 }
